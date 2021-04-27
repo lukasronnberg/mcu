@@ -51,3 +51,56 @@
   grid-column: 11/14;
   grid-row: 16/20;
 }
+
+.villansTitle {
+  grid-column: 1/-1;
+  justify-self: center;
+  grid-row: 22/22;
+}
+
+.thanos {
+  grid-column: 2/5;
+  grid-row: 24/28;
+}
+
+.zemo {
+  grid-column: 1/-1;
+  grid-row: 24/28;
+}
+
+.loki {
+  grid-column: 11/14;
+  grid-row: 24/28;
+}
+
+.ultron {
+  grid-column: 2/5;
+  grid-row: 29/33;
+}
+
+.redSkull {
+  grid-column: 1/-1;
+  grid-row: 29/33;
+}
+
+.hela {
+  grid-column: 11/14;
+  grid-row: 29/33;
+}
+
+.backButton1 {
+  grid-column: 1/-1;
+  justify-self: center;
+  grid-row: 2/2;
+}
+
+.backButton2 {
+  grid-column: 1/-1;
+  justify-self: center;
+  grid-row: 20/20;
+}
+
+.article {
+  grid-column: 2/14;
+  grid-row: 3/19;
+}
