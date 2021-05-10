@@ -1,6 +1,6 @@
 .mainTitle {
   font-family: sans-serif;
-  font-size: 45px;
+  font-size: 90px;
   text-align: center;
 }
 
@@ -20,13 +20,14 @@
   font-family: sans-serif;
   font-size: 40px;
   text-align: center;
+  padding-top: 200px;
 }
 
 .articleContent {
   font-family: sans-serif;
   font-size: 18px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-left: 50px;
+  padding-right: 50px;
 }
 
 .button {
@@ -53,13 +54,14 @@
 .backButtonS {
   background-color: transparent;
   border: 6px solid #212421;
-  display: inline-block;
   cursor: pointer;
   color: #000000;
   font-family: Arial;
   font-size: 25px;
   padding: 14px 23px;
   text-decoration: none;
+  display: block;
+  text-align: center
 }
 
 .backButtonS:hover {
@@ -89,12 +91,13 @@
   display: block;
 }
 
-.article {
+article {
   border: 7px solid #212421;
 }
 
 .articleImage {
-  height: 25%;
+  max-width: 60%;
+  height: auto;
   border: 4px solid #212421;
 }
 

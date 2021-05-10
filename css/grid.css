@@ -88,21 +88,16 @@
   grid-row: 29/33;
 }
 
-.backButton1 {
+header {
   grid-column: 1/-1;
   justify-self: center;
   grid-row: 2/2;
 }
 
-.backButton2 {
-  grid-column: 1/-1;
-  justify-self: center;
-  grid-row: 20/20;
-}
-
-.article {
+article {
   grid-column: 2/15;
-  grid-row: 3/19;
+  height: fit-content;
+  padding-bottom: 50px;
 }
 
 @media only screen and (max-width: 900px) {
