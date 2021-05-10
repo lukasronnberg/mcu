@@ -1,9 +1,9 @@
-  var audio = new Audio("aux/cap1.mp3");
+  var audio = new Audio("aux/cap1.mp3"); /* definerar variablen audio så den kan användas i funktionerna */
 
   function cap() {
-    audio.pause();
-    window.audio = new Audio("aux/cap1.mp3");
-    audio.play();
+    audio.pause(); /* stänger av något ljud som eventuellt spelas */
+    window.audio = new Audio("aux/cap1.mp3"); /* sätter audio variablen till rätt ljud för rätt funktion */
+    audio.play(); /* spelar ljudet */
 
   }
 

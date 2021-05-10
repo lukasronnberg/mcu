@@ -2,25 +2,27 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-  <link rel="stylesheet" href="css/grid.css">
-  <script src="js/script.js"></script>
-  <title>MCU</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="utf-8"> <!-- Ser till att ä,å,ö fungerar -->
+  <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Länkar till css dokumentet -->
+  <link rel="stylesheet" href="css/grid.css"> <!-- Länkar till css dokumentet -->
+  <script src="js/script.js"></script> <!-- Länkar till javascript dokumentet -->
+  <title>MCU</title> <!-- Webbsidans titel -->
+  <meta name="viewport" content="width=device-width, initial-scale=1"> <!-- viewport meta-tag -->
 </head>
 
 <body>
 
   <div class="container">
+    <!-- grid container -->
     <h1 class="mainTitle"> Marvels Cinematic Universe </h1>
     <div class="tilteButton">
+      <!-- knapp för att ta sig till nästa sida -->
       <a href="index2.html" class="button titleButton">LEARN MORE</a>
     </div>
     <h2 class=heroesTitle> THE HEROES </h2>
     <p class="tipsText"> TIPS: TRYCK PÅ BILDERNA </p>
     <div class="ironMan">
-      <input type="image" alt="IRON MAN" src="img/iron-man.jpg" class="characterPicture" onclick="ironman()">
+      <input type="image" alt="IRON MAN" src="img/iron-man.jpg" class="characterPicture" onclick="ironman()"> <!-- bild som en input så man kan utföra en javacript funktion vid klick -->
       <p class="characterText"> IRON MAN </p>
     </div>
     <div class="captainAmerica">

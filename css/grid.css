@@ -1,8 +1,10 @@
 .container {
+  /* css grid */
   display: grid;
-  /*  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));*/
   grid-template-columns: repeat(15, 1fr);
+  /* 15 colummer som varierar i storlek beroende på skärmen */
   grid-auto-rows: 100px;
+  /* 100px stora rader där raderna läggs till efter behov */
 }
 
 .mainTitle {
@@ -107,6 +109,8 @@ article {
 }
 
 @media only screen and (max-width: 900px) {
+
+  /* ändringar för att stödja mindre skärmar bättre, vid 900px var sidan inte längre läsbar med den gamla styleingen */
   .ironMan {
     grid-column: 3/7;
     grid-row: 11/14;
@@ -175,6 +179,8 @@ article {
 }
 
 @media only screen and (max-width: 600px) {
+
+  /* yttligare ändringar för ännu mindre skärmar */
   .ironMan {
     grid-column: 3/14;
     grid-row: 11/17;
