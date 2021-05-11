@@ -41,3 +41,31 @@
     audio.play();
 
   }
+
+  function snap() {
+
+    audio.pause();
+    window.audio = new Audio("aux/snap.mp3");
+    audio.play();
+
+    setTimeout(function() {
+      var image = document.getElementById("cap");
+      image.src = "img/white.jpg"
+
+      var image = document.getElementById("widow");
+      image.src = "img/white.jpg"
+
+      var image = document.getElementById("hulk");
+      image.src = "img/white.jpg"
+
+      var image = document.getElementById("zemo");
+      image.src = "img/white.jpg"
+
+      var image = document.getElementById("ultron");
+      image.src = "img/white.jpg"
+
+      var image = document.getElementById("hela");
+      image.src = "img/white.jpg"
+    }, 6000);
+
+  }
